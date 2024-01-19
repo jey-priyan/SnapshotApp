@@ -1,0 +1,17 @@
+/* Add your styles in a separate CSS file or use CSS-in-JS */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.image-container {
+  border: 1px solid #ddd;
+  padding: 16px;
+  text-align: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
